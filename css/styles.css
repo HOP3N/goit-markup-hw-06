@@ -888,10 +888,25 @@ img {
   height: 40px;
   left: 576px;
   top: 314px;
-  margin-bottom: 10px;
+  
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   /* color: var(--main-text-color); */
+}
+
+.modal-input::placeholder {
+  color:var(--text-contact);
+}
+
+.modal-input-wrap {
+  position: relative;
+}
+
+.modal-input-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .modal-label {
@@ -899,7 +914,8 @@ img {
 }
 
 .modal-field {
-  
+  position: relative;
+  margin-bottom: 10px;
 }
 
 .modal-label-text {
@@ -936,9 +952,6 @@ img {
   background-color: transparent;
 } */
 
-.modal-input::placeholder {
-  color:var(--text-contact);
-}
 
 /* .modal-input:not(:placeholder-shown):not(:focus):valid {
   background-color: greenyellow;
@@ -951,3 +964,4 @@ img {
 /* .modal-input:not(:placeholder-shown):not(:focus):invalid + .error {
   display: block;
 } */
+
