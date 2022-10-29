@@ -884,15 +884,36 @@ img {
 
 .modal-input {
   position: center;
-width: 448px;
-height: 40px;
-left: 576px;
-top: 314px;
-margin-bottom: 10px;
-border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
+  width: 448px;
+  height: 40px;
+  left: 576px;
+  top: 314px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  /* color: var(--main-text-color); */
 }
 
-.user-name {}
-.user-mail {}
-.user-tel {}
+/* .error {
+  display: none;
+} */
+
+/* .modal-input:focus {
+  background-color: transparent;
+} */
+
+/* .modal-input::placeholder {
+  color:var(--text-contact);
+} */
+
+/* .modal-input:not(:placeholder-shown):not(:focus):valid {
+  background-color: greenyellow;
+} */
+
+/* .modal-input:not(:placeholder-shown):not(:focus):invalid {
+  background-color: tomato;
+} */
+
+/* .modal-input:not(:placeholder-shown):not(:focus):invalid + .error {
+  display: block;
+} */
