@@ -474,7 +474,26 @@
                     class="modal-textarea"
                     ></textarea>
                 </div>
-                <button type="submit">Відправити</button>
+                <div class="modal-field">
+                <input 
+                    type="checkbox"
+                    name="policy"
+                    id="policy"
+                    class="input-check visually-hidden"
+                />
+                <label for="policy" class="check-text">
+                    <span>
+                        <svg class="check-icon" width="16" height="15">
+                            <use href="./images/icons.svg#icon-check"></use>
+                        </svg>
+                    </span>
+                    Погоджуюся з розсилкою та приймаю 
+                    <p> 
+                        <a href="" class="policy-ref">Умови договору</a>
+                    </p>
+                    </label>
+                </div>
+                <button type="submit" class="btn-modal btn-main-index">Відправити</button>
             </form>
         </div>
     </div>
