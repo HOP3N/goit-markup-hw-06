@@ -823,6 +823,69 @@ img {
   fill: var(--sub-text-color);
 }
 
+/* ---------------SUBSCRIBE--------------- */
+
+.modal-input-footer .footer-soc {
+  /* position: left; */
+  width: 358px;
+  height: 50px;
+  /* left: 576px;
+  top: 314px; */
+  fill: none;
+  background-color: #2f303a;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 30px;
+}
+
+.modal-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.modal-input-footer {
+  position: center;
+  width: 358px;
+  height: 50px;
+  left: 576px;
+  top: 314px;
+  color: var(--main-text-color);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+}
+
+.btn-footer {
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: block;
+  align-items: center;
+  text-align: center;
+  padding: 10px 62px 10px 28px;
+  margin-left: 12px;
+  background-image: url(../images/icon-send.svg);
+  background-repeat: no-repeat;
+  background-position: top 13px right 28px;
+}  
+
+.btn-footer .btn-main-index {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--sub-text-color);
+}
+
+
 /* ------------------MODAL/BACKDROP------------------------------- */
 
 .backdrop {
