@@ -1070,6 +1070,13 @@ img {
   fill: var(--sub-text-color);
 }
 
+.policy-ref {
+  margin-left: 5px;
+  /* text-decoration: underline; */
+  border-bottom: 1px solid;
+  color: var(--text-hover-color);
+  /* display: flex; */
+}
 
 /* .check-text::before {
   content: '';
@@ -1089,12 +1096,7 @@ img {
   background-position: center;
 } */
 
-.policy-ref {
-  margin-left: 5px;
-  text-decoration: underline;
-  color: var(--text-hover-color);
-  display: flex;
-}
+
 
 .btn-modal {
   width: 200px;
