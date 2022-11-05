@@ -123,6 +123,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   background-color: transparent;
+  padding-bottom: 30px;
 }
 
 .header-link:hover,
@@ -144,7 +145,7 @@ img {
   width: 100%;
   height: 4px;
   left: 0px;
-  bottom: -32px;
+  bottom: -2px;
   border-radius: 2px;
   position: absolute;
 }
@@ -272,34 +273,6 @@ img {
   fill: var(--text-contact);
 }
 
-.header-btn {
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 1;
-  text-align: center;
-  cursor: pointer;
-  /* border-radius: 4px; */
-  /* text-align: center; */
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  fill: var(--text-contact);
-  height: 30px;
-  width: 100px;
-  padding: 10px 12px;
-  margin: 30px 20px;
-}
-
-.header-btn:hover,
-.header-btn:focus {
-  color: var(--sub-text-color);
-  background-color: var(--text-hover-color);
-}
-
-/* .header-main:hover .header-btn,
-.header-main:focus .header-btn {
-  fill: var(--text-hover-color);
-} */
 
 /* --------------HERO---------------- */
 
@@ -315,7 +288,7 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 1200px;
+  width: 1600px;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -331,9 +304,15 @@ img {
   color: #ffffff;
   max-width: 696px;
   margin: auto;
+  margin-bottom: 40px;
 }
 
 .btn-main-index {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
   margin-top: 30px;
   text-align: center;
   padding: 10px 32px;
@@ -343,6 +322,11 @@ img {
   border-radius: 4px;
   margin: 0 auto;
   display: block;
+}
+
+.btn-main-index:hover {
+  color: var(--sub-text-color);
+  background-color: var(--text-hover-color);
 }
 
 .visually-hidden {
@@ -363,8 +347,8 @@ img {
   display: flex;
   gap: 8px;
   justify-content: center;
-  margin-top: 94px;
-  margin-bottom: 56px;
+  padding-top: 94px;
+  padding-bottom: 56px;
 }
 
 .btn-main {
@@ -403,7 +387,7 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .list-item-portfolio {
@@ -450,6 +434,7 @@ img {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: 0;
+  display: block;
 }
 
 .title-port {
@@ -658,8 +643,8 @@ img {
   fill: #afb1b8;
 }
 
-.team-soc-link {
-}
+/* .team-soc-link {
+} */
 
 .team-soc-link:hover,
 .team-soc-link:focus {
@@ -729,8 +714,8 @@ img {
   padding-bottom: 60px;
 }
 
-.footer-contacts {
-}
+/* .footer-contacts {
+} */
 
 .logo-footer-blue {
   font-family: "Raleway", sans-serif;
@@ -739,6 +724,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   color: var(--text-hover-color);
+  margin-bottom: 20px;
 }
 
 .logo-footer-white {
@@ -747,6 +733,7 @@ img {
   line-height: 1.19;
   color: var(--text-hover-color);
   color: var(--sub-text-color);
+  margin-bottom: 20px;
 }
 
 .address {
@@ -764,6 +751,7 @@ img {
 
 .list-item-footer {
   list-style: none;
+  margin-bottom: 9px;
 }
 
 .contact-mail-footer,
@@ -801,6 +789,7 @@ img {
   margin-bottom: 20px;
   justify-content: flex;
 }
+
 .team-soc-list {
   align-content: center;
   align-items: center;
@@ -813,9 +802,11 @@ img {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
+
 .team-soc-link {
   fill: var(--sub-text-color);
 }
+
 .team-soc-icon-footer {
   align-content: center;
   align-items: center;
@@ -896,6 +887,9 @@ img {
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity 300ms linear, 
   visibility 300ms linear;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .modal {
@@ -912,6 +906,9 @@ img {
   transform: translate(-50%, -50%) scaleZ(1);
   transition: transform 300ms linear;
   padding: 40px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .backdrop.is-hidden .modal {
@@ -927,6 +924,29 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  display: inline-flex;
+}
+
+/* .modal:hover .modal-close {
+  fill: var(--text-hover-color);
+  background-color: transparent;
+} */
+
+.modal-close:hover {
+  fill: var(--text-hover-color);
+  background-color: transparent;
+}
+
+.modal-icon-close {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--main-text-color);
 }
 
 .is-hidden {
